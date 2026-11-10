@@ -24,6 +24,7 @@ class MetadataReader : public ImageMetadata
 
         // Выводим метаданные в консоль
         void printMetadata();
+        
     private:
         // Вспомогательный метод для извлечения EXIF данных
         map<string, string> extractExifData();

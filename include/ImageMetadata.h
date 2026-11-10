@@ -10,6 +10,7 @@ class ImageMetadata
 {
     protected:
         string filePath;    // Путь к файлу
+        
     public:
         // Конструктор принимает путь к файлу
         // explicit предотвращаем неявные преобразования типов
