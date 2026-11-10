@@ -151,7 +151,7 @@ bool MetadataDeleter::deleteGPSData()
         // Список GPS тегов для удаления
         vector<string> gpsTags = {
             "Exif.GPSInfo.GPSLatitude",
-            "Exif.GPSInfo.GPSLongtitude",
+            "Exif.GPSInfo.GPSLongitude",
             "Exif.GPSInfo.GPSAltitude",
             "Exif.GPSInfo.GPSTimeStamp",
             "Exif.GPSInfo.GPSDateStamp"
